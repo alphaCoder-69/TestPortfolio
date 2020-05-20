@@ -104,31 +104,31 @@ header{
 /*     Slide 2       */
 
 .sliderContainer{
- background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0, 0.75)),url(img/img2.jpeg);
+ background-image: linear-gradient(rgba(0, 0, 0, 0.84),rgba(0,0,0, 0.84)),url(img/img2.jpeg);
     background-size: cover;
      background-position: center;
     height: 100vh;
 }
 
 .heading{
-    width: 60%;
-    margin-top: 25%;
-    margin-left: 18%;
+    width: 80%;
+    margin-top: 16%;
+    margin-left: 10%;
 }
 .main_head{
     color: #ffb735;
     letter-spacing: 2px;
-    font-size: 210%
+    font-size: 270%;
+    font-weight: 400;
 }
 .btn_icons2{
     width: 170%;
-    margin-top: 3%;
+    margin-top: 5%;
     padding-left: 30%;
 }
 .button3{
     width: 80%;
-    animation-delay: 2s;
 }
 .button3:hover,.button3:active{
-    background-color:rgba(0, 0, 0, 0.3)
+    background-color:rgba(0, 0, 0, 0.3);
 }
