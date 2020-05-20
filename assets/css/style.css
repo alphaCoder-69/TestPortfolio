@@ -14,31 +14,50 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 200;
     text-rendering: optimizeLegibility;
 }
+
+/*
+------------------------
+    Navigation
+------------------------
+*/
+
+
+
+/*
+------------------------
+    CAROUSEL SLIDER
+------------------------
+*/
 header{
     background-color: #151414;
 }
+
 .slide_container{
     width: 90%;
     margin: 0 auto;
 }
+
 .slide{
     height: 93vh;
     width: 100vw;
     background-color: #2a2a2a;
     margin-top: 1%;
 }
+
 .container{display: flex;}
 .intro{
     width: 40%;
     color: aliceblue;
-    margin-top: 18%;
+    margin-top: 15%;
+    line-height: 1px;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 
 .img{
