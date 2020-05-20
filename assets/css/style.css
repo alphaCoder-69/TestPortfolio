@@ -1,0 +1,52 @@
+/*     COLOURS
+
+    #3d3d3d --- Normal dark
+    #242424 --- darker
+    #565656 --- lighter
+
+    #34ace0 --- blue
+    #197ba6 --- darker
+    #7ecaeb --- lighter
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background-color: #151414;
+}
+.slide_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.slide{
+    height: 93vh;
+    width: 100vw;
+    background-color: #2a2a2a;
+    margin-top: 1%;
+}
+.container{display: flex;}
+.intro{
+    width: 40%;
+    color: aliceblue;
+    margin-top: 18%;
+}
+
+.img{
+     height: 90%;
+    width: 40%;
+    float: right;
+    margin-right: 8%;
+    margin-top: -20%;
+    padding-right: 10%;
+}
+.img1{height:90%;}

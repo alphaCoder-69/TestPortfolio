@@ -1,0 +1,38 @@
+/*Making the page responsive*/
+
+@media only screen and (max-width:1023px){
+    .img{margin-top: -23%;}
+    .intro{margin-left: 5%}
+}
+
+@media only screen and (max-width:768px){
+    .intro{margin-left:-5%;
+        margin-top: 25%;
+    }
+    .img{margin-top: -22%;}
+    .img1{height: 60%;}
+}
+
+@media only screen and (max-width:576px){
+    .img1{
+        height: 100%;
+    }
+    .img{width: 50%;
+        margin-top: -30%;
+        height: 50%;
+    }
+    .intro{
+        width: 30%;
+        margin-left: 5%;
+    }
+    .intro h1{font-size: 250%;
+        font-weight: 300;
+        padding-left: 5%;
+    }
+    
+    .intro h2{
+        font-size: 150%;
+        font-weight: 100;
+        padding: 2% 5%;
+    }
+}
