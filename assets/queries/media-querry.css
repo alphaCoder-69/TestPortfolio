@@ -1,9 +1,18 @@
 /*Making the page responsive*/
 
+
+/*      For Big Screens     */
+
 @media only screen and (max-width:1023px){
     .img{margin-top: -23%;}
     .intro{margin-left: 5%}
 }
+
+
+
+
+
+/*      For Small to medium Tablet Screens      */
 
 @media only screen and (max-width:768px){
     .intro{margin-left:-5%;
@@ -13,13 +22,21 @@
     .img1{height: 60%;}
 }
 
+
+
+
+
+/*      For Mobile Phone Screens            */
+
 @media only screen and (max-width:576px){
     .img1{
         height: 100%;
+        
     }
     .img{width: 50%;
         margin-top: -30%;
         height: 50%;
+        display: none;
     }
     .intro{
         width: 30%;

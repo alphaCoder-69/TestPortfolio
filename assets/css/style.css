@@ -20,16 +20,39 @@ html{
     font-weight: 200;
     text-rendering: optimizeLegibility;
 }
+body{background-color: #151514;}
 
 /*
 ------------------------
     Navigation
 ------------------------
 */
+.navbar{
+    background-color:  #151414;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.navbar-toggler{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
 
+.navbar_pos{margin-left: 59%;}
+
+.navigation_links{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #151414;
+}
+.navigation_links:hover{
+    border-bottom-color:#ffb735;
+    color: black;
+    
+}
+ 
 
 
 /*
+
 ------------------------
     CAROUSEL SLIDER
 ------------------------
@@ -46,14 +69,14 @@ header{
 .slide{
     height: 93vh;
     width: 100vw;
-    background-color: #2a2a2a;
+    background-color: #202020;
     margin-top: 1%;
 }
 /*     Slide 1       */
 .container{display: flex;}
 .intro{
     width: 40%;
-    color: #ffb735;
+    color:#ffb735;
     margin-top: 13%;
     line-height: 1px;
     letter-spacing: 2px;
@@ -62,7 +85,7 @@ header{
 
 .img{
      height: 90%;
-    width: 40%;
+    width: 35%;
     float: right;
     margin-right: 8%;
     margin-top: -17%;
@@ -85,13 +108,13 @@ header{
 }
 .button1:hover,button1:active{
     color: #ffb735;
-    background-color:#2a2a2a;    
+    background-color:#202020;    
 }
 
 .button2:link,button2:visited{
     margin-left: 5%;
     color:#ffb735;
-    border-color: #ffb735;
+    border-color:#ffb735;
     border-radius: 200px;
     width: 12%;
     transition: all 0.5s;
@@ -131,4 +154,118 @@ header{
 }
 .button3:hover,.button3:active{
     background-color:rgba(0, 0, 0, 0.3);
+}
+
+/*
+------------------------
+        PROFILE
+------------------------
+*/
+
+.profile_card{
+    width: 70%;
+    display: flex;
+}
+
+.about-card{
+    flex: 1;
+}
+
+.cards {
+  width: 30%;
+  height: 80%;
+  border-radius: 10px;
+  background:#202020;
+  
+}
+.cards .ds-top {
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 300px;
+  height: 80px;
+  background: #ffb735;
+  animation: dsTop 1.5s;
+}
+.cards .avatar-holder {
+  margin: auto;
+  top: 40px;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
+  background: white;
+  overflow: hidden;
+
+}
+.cards .avatar-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cards .name {
+ 
+  animation: fadeIn 2s ease-in;
+}
+.cards .name a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+.cards .name a:hover {
+  color:#ffb735 ;
+}
+.cards .name h6 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  width: 40px;
+}
+.cards .button {
+
+  margin: auto;
+  padding: 8px;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+  outline: none;
+}
+.cards .button a {
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-size: 10px;
+  transition: all 1s;
+}
+.cards .button a:hover {
+  color: white;
+  background: #ffb735;
+}
+.profile-skill{
+    width: 30%;
+    display: flex;
+}
+
+.icon{
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.ion{
+    font-size: 130%;
+    color:#ffb735;
 }

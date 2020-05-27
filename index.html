@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/owl.carousel.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/owl.theme.default.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.min.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="icons/css/ionicons.min.css">
         
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link rel="stylesheet" type="text/css" href="assets/queries/media-querry.css">
@@ -20,21 +20,55 @@
     </head>
     
     <body>
+                                    <!------ NAVIGATION BAR ------->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark animate__animated animate__slideInDown sticky-top">
+              <a class="navbar-brand" href="#" style="color: #ffb735;">$K$</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbar_pos">
+                  <li class="nav-item active">
+                    <a class="nav-link navigation_links" href="#about-me" data-text="About Me">About Me <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link navigation_links" href="#education" data-text="Education">Education <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link navigation_links" href="#skills" data-text="Skills">Skills <span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                    <a class="nav-link navigation_links" href="#projects" data-text="Projects">Projects <span class="sr-only">(current)</span></a>
+                  </li>
+                    <li class="nav-item active">
+                    <a class="nav-link navigation_links" href="#contact" data-text="Contact Me">Contact Me <span class="sr-only">(current)</span></a>
+                  </li>
+                  
+                </ul>
+            </div>
+        </nav>
+        
+                                        <!------ CAROUSEL SLIDER ------->
+        
         <header>
         <div class="owl-carousel owl-theme slide_container" style="animation-duration: 1.5s">
             <div class="item slide animate__fadeIn" style="animation-duration: 1.5s" >
                 <div class="container">
                     <div class="intro">
-                        <h1 class="animate__fadeInUp" style="animation-duration: 1s">Hello ..</h1>
-                    <h2 class="animate__fadeInUp" style="animation-duration: 1.5s">I am <strong>Swaroop</strong></h2></div>
+                        <h1 class="animate__fadeInUp" style="animation-duration: 1s">Hey there !!</h1>
+                    <h2 class="animate__fadeInUp" style="animation-duration: 1.5s">I am <strong>Swaroop</strong></h2>
+                    </div>
                     </div>
                     
-                    <div class="img">
-                        <img class="img1 animate__fadeInRight" style="animation-duration:1.5s" src="assets/css/img/img1.jpg" alt="image 1">
+                <div class="img">
+                        <img class="img1 animate__fadeInRight" style="animation-duration:1.5s" src="assets/css/img/IMG_20200126_141436.jpg" alt="image 1">
                     </div>
+                    
                 <div class="btn_icons">
-                    <a class="btn button1 btn-light animate__fadeInUp" href="#" style="animation-duration: 1.5s">Profile</a>
-                    <a class="btn button2 btn-outline-light animate__fadeInUp" href="#" style="animation-duration: 1.5s">Contact Me</a>
+                    <a class="btn button1 btn-light animate__fadeInUp" href="#profile" style="animation-duration: 1.5s">Profile</a>
+                    <a class="btn button2 btn-outline-light animate__fadeInUp" href="#contact" style="animation-duration: 1.5s">Contact Me</a>
                 </div>
                     
                 
@@ -43,7 +77,7 @@
                 <div class="sliderContainer">
                     <div class="container">
                         <div class="heading">
-                            <h3 class="main_head animate__animated animate__fadeInDown animate__delay-5s">I&#39;m a student in VSSUT, Burla</h3>
+                            <h3 class="main_head animate__animated animate__fadeInDown animate__delay-5s">I&#39;m a student at VSSUT, Burla</h3>
                         </div>
                     </div>
                     
@@ -53,51 +87,50 @@
                 </div>
             </div>
         </div>
-     </header>  
+     </header> 
+        
+                                           <!------ PROFILE ------->
+        <div class="container profile_card animate__animated" id="about-me">
+               <div class="cards">
+                  <div class="ds-top"></div>
+                    <div class="avatar-holder">
+                        <img src="assets/css/img/img1.jpg" alt="Swaroop">
+                    </div>
+                  <div class="name">
+                    <a href="https://codepen.io/AlbertFeynman/" target="_blank">Swaroop Kumar Sahu</a>
+                  </div>
+                  <div class="button">
+                    <a href="#" class="btn">Skills</a>
+                  </div>
+                  <div class="profile-skill">
+                        <div class="icon"><i class=" ion ion-logo-html5"></i></div>
+                        <div class="icon"><i class="ion ion-logo-css3"></i></div>
+                        <div class="icon"><i class="ion ion-logo-javascript"></i></div>
+                        <div class="icon"><i class="ion ion-ios-camera"></i></div>
+                        <div class="icon"><i class="ion ion-ios-laptop"></i></div>
+                  </div>
+                </div> 
+            
+            <div class="about-card card">
+                <div class="card-title">
+                    <p>About Me</p>
+                </div>
+            </div>
+        </div>
+        
         
         <!--      JAVASCRIPT FILES       -->
         <script src="vendors/js/jquery.min.js"></script>
         <script src="vendors/js/owl.carousel.min.js"></script>        
         <script src="vendors/js/bootstrap.bundle.min.js"></script>
-        <script src="vendors/js/bootstrap.min.js"></script> 
+        <script src="vendors/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> 
         <script src="assets/js/script.js"></script>
         
     </body>
 </html>
 <!--  Navigation-----
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+  
 </nav>
 -->
