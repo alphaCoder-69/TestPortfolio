@@ -185,7 +185,7 @@ header{
   box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
   background: white;
   overflow: hidden;
-    margin: 50px auto
+    margin: 50px auto;
 }
 .cards .avatar-holder img {
   width: 100%;
@@ -290,3 +290,10 @@ header{
 .highlight-text{
     color: #ffb735;
 }
+
+/*
+------------------------
+       EDUCATION
+------------------------
+*/
+
