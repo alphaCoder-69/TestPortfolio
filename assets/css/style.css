@@ -151,6 +151,8 @@ header{
 }
 .button3{
     width: 80%;
+    background-color: #ffb735;
+    border-color: #ffb735;
 }
 .button3:hover,.button3:active{
     background-color:rgba(0, 0, 0, 0.3);
@@ -165,41 +167,25 @@ header{
 .profile_card{
     width: 70%;
     display: flex;
+    margin-top: 5%;
 }
-
-.about-card{
-    flex: 1;
-}
-
 .cards {
   width: 30%;
-  height: 80%;
-  border-radius: 10px;
   background:#202020;
-  
 }
-.cards .ds-top {
-  margin: auto;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 300px;
-  height: 80px;
+.cards .ds-top{
+  width:280px;
+  height: 10px;
   background: #ffb735;
-  animation: dsTop 1.5s;
 }
 .cards .avatar-holder {
-  margin: auto;
-  top: 40px;
-  right: 0;
-  left: 0;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
   background: white;
   overflow: hidden;
-
+    margin: 50px auto
 }
 .cards .avatar-holder img {
   width: 100%;
@@ -207,65 +193,100 @@ header{
   object-fit: cover;
 }
 .cards .name {
- 
+    margin: 10px;
+    margin-top: -20px;
   animation: fadeIn 2s ease-in;
 }
 .cards .name a {
   color: white;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 35px;
 }
 .cards .name a:hover {
   color:#ffb735 ;
 }
-.cards .name h6 {
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: white;
-  width: 40px;
-}
-.cards .button {
 
+.cards .button {
   margin: auto;
-  padding: 8px;
+  border-bottom: 2px solid #ffb735;
+  height: 40px;
   top: 20px;
   right: 0;
   bottom: 0;
   left: 0;
   width: inherit;
-  height: 40px;
+    margin-top: 30%;
   text-align: center;
   animation: fadeIn 2s ease-in;
   outline: none;
 }
 .cards .button a {
-  padding: 5px 20px;
   border-radius: 10px;
   color: white;
-  letter-spacing: 0.05em;
+  letter-spacing: 1px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 20px;
   transition: all 1s;
 }
 .cards .button a:hover {
-  color: white;
-  background: #ffb735;
+  color: #ffb735;
 }
 .profile-skill{
     width: 30%;
     display: flex;
+    margin-top: 10%;
 }
 
 .icon{
     margin-left: 35%;
-    margin-top: 10%;
     margin-bottom: 20%;
 }
 
 .ion{
     font-size: 130%;
     color:#ffb735;
+    transition: all 0.5s;
+    animation: fadeIn 2s ease-in;
+}
+.ion:hover{
+    color:white ;
+}
+.about-card{
+    flex: 1;
+    background-color: #202020;
+    border-radius: 0;
+}
+
+.about-card-title{
+    color: #ffb735;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:-20px;
+    font-size: 130%;
+}
+.about-card-subtitle{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 3%;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.card-list{
+    background-color:#202020;
+    color: white;
+    border-color: #202020;
+    border-left-color: #ffb735;
+     width: 90%;
+    margin: 0 auto;
+}
+.highlight-text{
+    color: #ffb735;
 }
