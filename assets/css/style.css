@@ -1,7 +1,7 @@
 /*     COLOURS
 #ffdc27
-    #3d3d3d --- Normal dark
-    #242424 --- darker
+    #202020 --- Normal dark
+        #151514 --- darker
     #565656 --- lighter
 
     #ffa502 --- base
@@ -40,8 +40,10 @@ body{background-color: #151514;}
 .navbar_pos{margin-left: 59%;}
 
 .navigation_links{
-    padding-bottom: 6px;
-    border-bottom: 1px solid #151414;
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #151414;
+    transition:border-bottom-color 0.5s; 
 }
 .navigation_links:hover{
     border-bottom-color:#ffb735;
@@ -74,6 +76,7 @@ header{
 }
 /*     Slide 1       */
 .container{display: flex;}
+
 .intro{
     width: 40%;
     color:#ffb735;
@@ -183,7 +186,7 @@ header{
   height: 100px;
   border-radius: 50%;
   box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
-  background: white;
+  background: #202020;
   overflow: hidden;
     margin: 50px auto;
 }
@@ -191,6 +194,7 @@ header{
   width: 100%;
   height: 100%;
   object-fit: cover;
+    animation: fadeIn 0.5s ease-in;
 }
 .cards .name {
     margin: 10px;
@@ -297,3 +301,45 @@ header{
 ------------------------
 */
 
+.row{
+    width: 100%;
+    margin-left: 0;
+}
+
+.edu-container{
+    width: 75%;
+    display: block;
+    background-color: #151514;
+}
+
+.edu-body{
+    background-color: #202020;
+}
+
+.edu-body:before{
+    display: block;
+    height: 1px;
+    background-color: #ffb735;
+    content: "";
+    left: 0;
+    width: 100px;
+    transform: rotate(-30deg);
+    animation: fadeIn 1s;
+    margin-bottom: 3px;
+}
+
+.edu-body p:before{
+    display: block;
+    height: 1px;
+    background-color: #ffb735;
+    content: "";
+    left: 0;
+    width: 100px;
+    transform: rotate(-30deg);
+    animation: fadeIn 1s;
+}
+
+.edu-text{
+    color: aliceblue;
+    text-align: center;
+}
