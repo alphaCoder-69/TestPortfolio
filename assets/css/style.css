@@ -28,7 +28,7 @@ body{background-color: #151514;}
 ------------------------
 */
 .navbar{
-    background-color:  #151414;
+    background-color:  #151514;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -170,8 +170,8 @@ header{
 .profile_card{
     width: 70%;
     display: flex;
-    margin-top: 5%;
 }
+
 .cards {
   width: 30%;
   background:#202020;
@@ -312,34 +312,66 @@ header{
     background-color: #151514;
 }
 
+.main-head{
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.main-head h2{
+    color: aliceblue;
+    font-weight:200;
+}
+.main-head h2:after{
+    display: block;
+    background-color: #ffb735;
+    height: 3px;
+    content: "";
+    width: 100px;
+    margin: 20px auto;
+    margin-top: 10px;
+    animation: fadeInUp 2s;
+}
 .edu-body{
     background-color: #202020;
+    margin-bottom: 5%;
 }
 
-.edu-body:before{
+.line-1{
     display: block;
     height: 1px;
     background-color: #ffb735;
     content: "";
     left: 0;
-    width: 100px;
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 5px;
     transform: rotate(-30deg);
-    animation: fadeIn 1s;
-    margin-bottom: 3px;
+    animation: fadeIn 2s;
 }
 
-.edu-body p:before{
+.line-2{
     display: block;
     height: 1px;
     background-color: #ffb735;
     content: "";
     left: 0;
-    width: 100px;
+    width: 120px;
     transform: rotate(-30deg);
-    animation: fadeIn 1s;
+    animation: fadeIn 2s;
 }
 
+.edu-heading{
+    color: aliceblue;
+    font-size: 130%;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}
 .edu-text{
     color: aliceblue;
     text-align: center;
+}
+
+.date{
+    color: #ffb735;
+    font-size: 100%;
 }
