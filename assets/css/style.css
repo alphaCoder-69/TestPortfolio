@@ -9,48 +9,56 @@
     #ffb735 --- lighter
 */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 200;
     text-rendering: optimizeLegibility;
 }
-body{background-color: #151514;}
+
+body {
+    background-color: #151514;
+}
 
 /*
 ------------------------
     Navigation
 ------------------------
 */
-.navbar{
-    background-color:  #151514;
+.navbar {
+    background-color: #151514;
     padding-bottom: 0;
     padding-top: 0;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin-bottom: 0;
     margin-top: 5px;
 }
 
-.navbar_pos{margin-left: 59%;}
+.navbar_pos {
+    margin-left: 59%;
+}
 
-.navigation_links{
+.navigation_links {
     padding-bottom: 3px;
     margin-bottom: 2px;
     border-bottom: 2px solid #151414;
-    transition:border-bottom-color 0.5s; 
+    transition: border-bottom-color 0.5s;
 }
-.navigation_links:hover{
-    border-bottom-color:#ffb735;
+
+.navigation_links:hover {
+    border-bottom-color: #ffb735;
     color: black;
-    
+
 }
- 
+
 
 
 /*
@@ -59,106 +67,124 @@ body{background-color: #151514;}
     CAROUSEL SLIDER
 ------------------------
 */
-header{
+header {
     background-color: #151414;
 }
 
-.slide_container{
+.slide_container {
     width: 90%;
     margin: 0 auto;
 }
 
-.slide{
+.slide {
     height: 93vh;
     width: 100vw;
     background-color: #202020;
     margin-top: 1%;
 }
-/*     Slide 1       */
-.container{display: flex;}
 
-.intro{
+/*     Slide 1       */
+.container {
+    display: flex;
+}
+
+.intro {
     width: 40%;
-    color:#ffb735;
+    color: #ffb735;
     margin-top: 13%;
     line-height: 1px;
     letter-spacing: 2px;
     font-weight: 300;
 }
 
-.img{
-     height: 90%;
+.img {
+    height: 90%;
     width: 35%;
     float: right;
     margin-right: 8%;
     margin-top: -17%;
     padding-right: 10%;
 }
-.img1{height:90%;}
 
-.btn_icons{
-    margin-top: 7%;
-     margin-left: 4%;
+.img1 {
+    height: 90%;
 }
-.button1:link,button1:visited{
-    background-color:#ffb735;
+
+.btn_icons {
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.button1:link,
+.button1:visited {
+    background-color: #ffb735;
     border-color: #ffb735;
     font-weight: 400;
     border-radius: 200px;
     width: 10%;
-     margin-left: 5%;
+    margin-left: 5%;
     transition: all 0.5s;
 }
-.button1:hover,button1:active{
+
+.button1:hover,
+.button1:active {
     color: #ffb735;
-    background-color:#202020;    
+    background-color: #202020;
 }
 
-.button2:link,button2:visited{
+.button2:link,
+.button2:visited {
     margin-left: 5%;
-    color:#ffb735;
-    border-color:#ffb735;
+    color: #ffb735;
+    border-color: #ffb735;
     border-radius: 200px;
     width: 12%;
     transition: all 0.5s;
 }
-.button2:hover,button2:active{
-    background-color:#ffb735;
+
+.button2:hover,
+.button2:active {
+    background-color: #ffb735;
     color: rgba(0, 0, 0, 0.89);
 }
 
 /*     Slide 2       */
 
-.sliderContainer{
- background-image: linear-gradient(rgba(0, 0, 0, 0.84),rgba(0,0,0, 0.84)),url(img/img2.jpeg);
+.sliderContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url(img/img2.jpeg);
     background-size: cover;
-     background-position: center;
+    background-position: center;
     height: 100vh;
 }
 
-.heading{
+.heading {
     width: 80%;
     margin-top: 16%;
     margin-left: 10%;
 }
-.main_head{
+
+.main_head {
     color: #ffb735;
     letter-spacing: 2px;
     font-size: 270%;
     font-weight: 400;
 }
-.btn_icons2{
+
+.btn_icons2 {
     width: 170%;
     margin-top: 5%;
     padding-left: 30%;
 }
-.button3{
+
+.button3 {
     width: 80%;
     background-color: #ffb735;
     border-color: #ffb735;
 }
-.button3:hover,.button3:active{
-    background-color:rgba(0, 0, 0, 0.3);
+
+.button3:hover,
+.button3:active {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /*
@@ -167,112 +193,124 @@ header{
 ------------------------
 */
 
-.profile_card{
+.profile_card {
     width: 70%;
     display: flex;
 }
 
 .cards {
-  width: 30%;
-  background:#202020;
+    width: 30%;
+    background: #202020;
 }
-.cards .ds-top{
-  width:280px;
-  height: 10px;
-  background: #ffb735;
+
+.cards .ds-top {
+    width: 280px;
+    height: 10px;
+    background: #ffb735;
 }
+
 .cards .avatar-holder {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
-  background: #202020;
-  overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #ffb735, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500, inset 0 0 0 5px #ce8500;
+    background: #202020;
+    overflow: hidden;
     margin: 50px auto;
 }
+
 .cards .avatar-holder img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     animation: fadeIn 0.5s ease-in;
 }
+
 .cards .name {
     margin: 10px;
     margin-top: -20px;
-  animation: fadeIn 2s ease-in;
+    animation: fadeIn 2s ease-in;
 }
+
 .cards .name a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
     letter-spacing: 1px;
     padding-left: 35px;
 }
+
 .cards .name a:hover {
-  color:#ffb735 ;
+    color: #ffb735;
 }
 
 .cards .button {
-  margin: auto;
-  border-bottom: 2px solid #ffb735;
-  height: 40px;
-  top: 20px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: inherit;
+    margin: auto;
+    border-bottom: 2px solid #ffb735;
+    height: 40px;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
     margin-top: 30%;
-  text-align: center;
-  animation: fadeIn 2s ease-in;
-  outline: none;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+    outline: none;
 }
+
 .cards .button a {
-  border-radius: 10px;
-  color: white;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-size: 20px;
-  transition: all 1s;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 1s;
 }
+
 .cards .button a:hover {
-  color: #ffb735;
+    color: #ffb735;
 }
-.profile-skill{
+
+.profile-skill {
     width: 30%;
     display: flex;
     margin-top: 10%;
 }
 
-.icon{
+.icon {
     margin-left: 35%;
     margin-bottom: 20%;
 }
 
-.ion{
+.ion {
     font-size: 130%;
-    color:#ffb735;
+    color: #ffb735;
     transition: all 0.5s;
     animation: fadeIn 2s ease-in;
 }
-.ion:hover{
-    color:white ;
+
+.ion:hover {
+    color: white;
 }
-.about-card{
+
+.about-card {
     flex: 1;
     background-color: #202020;
     border-radius: 0;
 }
 
-.about-card-title{
+.about-card-title {
     color: #ffb735;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:-20px;
+    margin-bottom: -20px;
     font-size: 130%;
 }
-.about-card-subtitle{
+
+.about-card-subtitle {
     color: white;
     font-family: sans-serif;
     font-size: 15px;
@@ -283,15 +321,16 @@ header{
     padding-bottom: 0;
 }
 
-.card-list{
-    background-color:#202020;
+.card-list {
+    background-color: #202020;
     color: white;
     border-color: #202020;
     border-left-color: #ffb735;
-     width: 90%;
+    width: 90%;
     margin: 0 auto;
 }
-.highlight-text{
+
+.highlight-text {
     color: #ffb735;
 }
 
@@ -301,26 +340,28 @@ header{
 ------------------------
 */
 
-.row{
+.row {
     width: 100%;
     margin-left: 0;
 }
 
-.edu-container{
+.edu-container {
     width: 75%;
     display: block;
     background-color: #151514;
 }
 
-.main-head{
+.main-head {
     margin-top: 8%;
     margin-bottom: 2%;
 }
-.main-head h2{
+
+.main-head h2 {
     color: aliceblue;
-    font-weight:200;
+    font-weight: 200;
 }
-.main-head h2:after{
+
+.main-head h2:after {
     display: block;
     background-color: #ffb735;
     height: 3px;
@@ -330,48 +371,53 @@ header{
     margin-top: 10px;
     animation: fadeInUp 2s;
 }
-.edu-body{
+
+.edu-body {
     background-color: #202020;
     margin-bottom: 5%;
+    overflow: hidden;
 }
 
-.line-1{
+.line-1 {
     display: block;
-    height: 1px;
+    height: 70px;
     background-color: #ffb735;
     content: "";
     left: 0;
-    width: 120px;
-    margin-top: 50px;
+    width: 230px;
+    margin-top: -30px;
+    margin-left: -20%;
     margin-bottom: 5px;
+    overflow: hidden;
     transform: rotate(-30deg);
     animation: fadeIn 2s;
 }
 
-.line-2{
-    display: block;
-    height: 1px;
-    background-color: #ffb735;
-    content: "";
-    left: 0;
-    width: 120px;
-    transform: rotate(-30deg);
-    animation: fadeIn 2s;
+#body3-line {
+    height: 90px;
+    width: 250px;
+    margin-bottom: 0;
 }
 
-.edu-heading{
+.edu-heading {
     color: aliceblue;
     font-size: 130%;
     font-weight: 400;
     margin-top: 5%;
-    
+    margin-bottom: 5%;
 }
-.edu-text{
+
+.body3 h3 {
+    margin-bottom: 3%;
+}
+
+.edu-text {
     color: aliceblue;
     text-align: center;
 }
 
-.date{
+.date {
     color: #ffb735;
     font-size: 100%;
+    padding: 50px 10px;
 }
