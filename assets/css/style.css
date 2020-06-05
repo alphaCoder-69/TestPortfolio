@@ -393,27 +393,28 @@ header {
     animation: fadeIn 2s;
 }
 
-#body3-line {
-    height: 90px;
-    width: 250px;
-    margin-bottom: 0;
-}
+
 
 .edu-heading {
     color: aliceblue;
     font-size: 130%;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 5%;
     margin-bottom: 5%;
+    letter-spacing: 1px;
 }
 
-.body3 h3 {
-    margin-bottom: 3%;
-}
+
 
 .edu-text {
     color: aliceblue;
     text-align: center;
+    margin-top: 5%;
+    padding: 3%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+    cursor: default;
 }
 
 .date {
@@ -421,3 +422,16 @@ header {
     font-size: 100%;
     padding: 50px 10px;
 }
+
+/*
+.body3 h3 {
+    margin-bottom: 3%;
+}
+
+#body3-line {
+    height: 80px;
+    width: 250px;
+    margin-bottom: 0;
+    transform: rotate(-40deg);
+}
+*/
