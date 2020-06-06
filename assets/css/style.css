@@ -35,6 +35,7 @@ body {
     background-color: #151514;
     padding-bottom: 0;
     padding-top: 0;
+    height: 60px;
 }
 
 .navbar-toggler {
@@ -48,15 +49,15 @@ body {
 
 .navigation_links {
     padding-bottom: 3px;
+    margin-top: 25px;
     margin-bottom: 2px;
     border-bottom: 2px solid #151414;
-    transition: border-bottom-color 0.5s;
+    transition: all 0.5s;
 }
 
 .navigation_links:hover {
     border-bottom-color: #ffb735;
-    color: black;
-
+    transform: translateY(-1px);
 }
 
 
@@ -615,3 +616,12 @@ svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 90) / 100);
     stroke: #ff6600;
 }
+
+/*
+
+------------------------
+       PROJECTS
+------------------------
+
+*/
+
