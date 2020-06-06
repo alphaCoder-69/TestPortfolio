@@ -34,8 +34,7 @@ body {
 .navbar {
     background-color: #151514;
     padding-bottom: 0;
-    padding-top: 0;
-    height: 60px;
+    padding-top: 0; 
 }
 
 .navbar-toggler {
@@ -49,7 +48,6 @@ body {
 
 .navigation_links {
     padding-bottom: 3px;
-    margin-top: 25px;
     margin-bottom: 2px;
     border-bottom: 2px solid #151414;
     transition: all 0.5s;
@@ -625,3 +623,6 @@ svg circle:nth-child(2) {
 
 */
 
+#projects .main-head{
+    margin-bottom: 0;
+}
