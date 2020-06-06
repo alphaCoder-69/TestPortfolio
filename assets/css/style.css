@@ -363,7 +363,7 @@ ul li:last-child {
 }
 
 .main-head {
-    margin-top: 8%;
+    margin-top: 4%;
     margin-bottom: 2%;
 }
 
@@ -444,17 +444,19 @@ ul li:last-child {
 */
 
 #skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: rgba(16, 16, 16, 0.8);
+}
+
+#skills .main-head h2:after {
+    width: 80px;
 }
 
 .skills-container {
     position: relative;
     width: 1000px;
-    margin: 5% auto;
+    margin: 0 auto;
+    padding-bottom: 2%;
 }
 
 .skills-container-1,
@@ -462,10 +464,11 @@ ul li:last-child {
     display: flex;
 }
 
-.skills-container-1{
-   margin-bottom: 3%;
+.skills-container-1 {
+    margin-bottom: 3%;
 }
-.space-eater{
+
+.space-eater {
     flex: 1;
 }
 
@@ -492,7 +495,6 @@ ul li:last-child {
     left: -50%;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, .03);
     pointer-events: none;
     z-index: 1;
 }
@@ -552,6 +554,7 @@ ul li:last-child {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 1px;
+    cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
 }
@@ -587,6 +590,7 @@ svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 95) / 100);
 }
 
+
 .skills-container-1 .skills-card:nth-of-type(3) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 85) / 100);
     stroke: #00a1ff;
@@ -594,20 +598,20 @@ svg circle:nth-child(2) {
 
 .skills-container-1 .skills-card:nth-of-type(5) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 80) / 100);
-    stroke: #ff6600;
+    stroke: #d61a3c;
 }
 
 .skills-container-2 .skills-card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
     stroke: #00ff43;
 }
 
 .skills-container-2 .skills-card:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke-dashoffset: calc(440 - (440 * 82) / 100);
     stroke: #800080;
 }
 
 .skills-container-2 .skills-card:nth-child(5) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 80) / 100);
-    stroke: #d61a3c;
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #ff6600;
 }
