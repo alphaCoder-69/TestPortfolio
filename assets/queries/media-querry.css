@@ -42,6 +42,9 @@
 
 @media only screen and (max-width:576px) {
 
+
+    /*  NAVIGATION  */
+
     .navbar_pos {
         width: 20%;
         margin: 0 auto;
@@ -51,6 +54,8 @@
         text-align: center;
     }
 
+
+    /*  SLIDE CONTAINER  */
 
 
     .slide {
@@ -110,6 +115,10 @@
 
     }
 
+
+    /*  PROFILE  */
+
+
     .profile_card {
         width: 100%;
     }
@@ -159,6 +168,8 @@
     }
 
 
+    /*  EDUCATION  */
+
 
     .edu-container {
         width: 70%;
@@ -172,6 +183,10 @@
     .edu-text {
         font-weight: 300;
     }
+
+
+    /*  SKILLS  */
+
 
     .skills-container {
         width: 90vw;
@@ -199,4 +214,154 @@
 
 /*      For Small Mobile Phone Screens            */
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width:480px) {
+
+
+    /*  SLIDER  */
+
+
+    .intro {
+        width: 80%;
+    }
+
+    .intro h1 {
+        font-weight: 400;
+    }
+
+    .intro h2 {
+        padding: 2% 15%;
+    }
+
+    .btn_icons {
+        width: 80%;
+        margin: 15% 3%;
+    }
+
+    .button1:link,
+    .buuon1:visited {
+        padding-top: 1%;
+    }
+
+
+    .button2:link,
+    .button2:visited {
+        padding-top: 1%;
+    }
+
+    .btn_icons2 {
+        width: 130%;
+        margin-left: -10%
+    }
+
+
+    /*  PROFILE  */
+
+    #profile .main-head h2:after {
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .profile_card {
+        display: block;
+        margin-top: -3%;
+    }
+
+    .cards,
+    .cards .ds-top {
+        width: 100%;
+    }
+
+    .cards .avatar-holder {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px auto;
+    }
+
+    .cards .name {
+        margin: 30px 0;
+        margin-top:
+    }
+
+    .cards .name a {
+        font-size: 25px;
+        padding-left: 20%;
+        color: #ffb735;
+    }
+
+    .cards .name a:hover {
+        color: white;
+    }
+
+    .cards .button,
+    .profile-skill {
+        display: none;
+    }
+
+    .about-card {
+        margin-top: -7%;
+    }
+
+    .about-card-title {
+        width: 33%;
+        margin: 0 auto;
+        color: aliceblue;
+        margin-bottom: -2%;
+        font-weight: 400;
+    }
+
+    .about-card-subtitle {
+        padding-top: 0;
+    }
+
+    /*  EDUCATION  */
+
+
+    .edu-container {
+        width: 90%;
+    }
+
+    .edu-heading {
+        font-size: 120%;
+        margin-top: 0;
+    }
+
+    .edu-text {
+        font-weight: 300;
+    }
+
+    /*  SKILLS  */
+
+    #skills .main-head h2:after {
+        background-color: #ffdf00;
+    }
+
+    .skills-container {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .skills-container-1,
+    .skills-container-2 {
+        display: inline-block;
+    }
+
+    .skills-container-1 {
+        margin-bottom: 3%;
+    }
+
+    .skills-container .skills-card {
+        margin-bottom: 5%;
+        width: 210px;
+    }
+
+    .skills-container .skills-card:hover {
+        transform: translateY(-8px);
+    }
+
+
+    .skills-box {
+        margin: 10% 15%;
+    }
+
+}

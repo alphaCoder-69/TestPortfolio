@@ -2,7 +2,7 @@
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    autoplay:true,            /*Set this property to true*/
+    autoplay:false,            /*Set this property to true*/
     autoplayTimeout:4000,
     autoplayHoverPause:false,
     animateOut:'fadeOut',
