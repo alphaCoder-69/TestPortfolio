@@ -632,11 +632,12 @@ svg circle:nth-child(2) {
     margin-bottom: 0;
 }
 
-.sub-head{
+.sub-head {
     margin-bottom: 2%;
     animation: fadeInUp 1.5s;
 }
-.sub-head-text{
+
+.sub-head-text {
     color: rgba(246, 250, 253, 0.65);
     font-size: 25px;
     font-weight: 300;
@@ -733,3 +734,12 @@ svg circle:nth-child(2) {
 .project-content:hover .project-text {
     transform: translateY(-10px);
 }
+
+
+/*
+
+------------------------
+    CONTACT ME
+------------------------
+
+*/
